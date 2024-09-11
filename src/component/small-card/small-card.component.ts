@@ -7,6 +7,7 @@ import { Component } from '@angular/core';
   templateUrl: './small-card.component.html',
   styleUrl: './small-card.component.css'
 })
+
 export class SmallCardComponent {
 
 }
