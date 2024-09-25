@@ -11,5 +11,4 @@ export class SmallCardComponent {
   @Input() cardPhoto: string = ' ';
   @Input() cardTitle: string = ' ';
   @Input() cardDescription: string = ' ';
-
 }

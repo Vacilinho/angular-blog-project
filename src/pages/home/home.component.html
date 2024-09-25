@@ -1,14 +1,14 @@
-<div class="container mx-auto">
+<!-- <div class="container mx-auto">
   <app-menu-title></app-menu-title>
-  <div class="flex">
-    <div class="w-[60%]">
+  <div class="flex flex-row from bg-gradient-to-br from-gray-950 border border-gray-900 rounded-lg p-4 gap-5">
+    <div class="w-[55%]">
       <app-big-card
         photoCover="https://www.psu.com/wp/wp-content/uploads/2021/02/SkateCity-2.jpg"
         cardTitle="Título do card"
         cardDescription="Aqui vai uma pequena descrição da matéria"
       ></app-big-card>
     </div>
-    <div class="w-[40%]">
+    <div class="w-[45%]">
       <app-small-card
         cardPhoto="https://i.kinja-img.com/image/upload/c_fit,q_60,w_1315/b33ee0fab047dfaf25c89513ddd5962a.jpg"
         cardTitle="Novo trailer de Skate 4 lançado"
@@ -26,5 +26,44 @@
       ></app-small-card>
     </div>
   </div>
-    
+</div> -->
+<div class="container mx-auto">
+  <div class="flex h-screen w-full items-center justify-center p-6">
+    <div class="grid w-full h-full grid-cols-10 grid-rows-4 gap-4">
+      <div
+        class="col-span-4 row-span-3 border border-gray-950 bg-gradient-to-br from-gray-900 rounded-3xl flex justify-center items-center"
+      >
+        <a href="this."
+          ><app-big-card
+            [photoCover]="
+              'https://vejasp.abril.com.br/wp-content/uploads/2016/12/grandmaster-flash.png'
+            "
+            [cardTitle]="'Grandmaster Flash e sua aula de contagem'"
+            [cardDescription]="'Breve descrição do títúlo aqui'"
+          ></app-big-card
+        ></a>
+      </div>
+      <div
+        class="col-span-6 row-span-1 border border-gray-950 bg-gradient-to-br from-gray-900 rounded-3xl flex justify-center items-center"
+      >
+        <app-small-card></app-small-card>
+      </div>
+      <div
+        class="col-span-6 row-span-1 border border-gray-950 bg-gradient-to-br from-gray-900 rounded-3xl flex justify-center items-center"
+      >
+        <app-small-card></app-small-card>
+      </div>
+      <div
+        class="col-span-6 row-span-1 border border-gray-950 bg-gradient-to-br from-gray-900 rounded-3xl flex justify-center items-center"
+      >
+        <app-small-card></app-small-card>
+      </div>
+      <div
+        class="col-span-3 row-span-2 border border-gray-950 bg-gradient-to-br from-gray-900 rounded-3xl flex justify-center items-center"
+      ></div>
+      <div
+        class="col-span-7 row-span-1 border border-gray-950 bg-gradient-to-br from-gray-900 rounded-3xl flex justify-center items-center"
+      ></div>
+    </div>
+  </div>
 </div>
