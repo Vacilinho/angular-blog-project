@@ -13,8 +13,8 @@ export const dataFake = [
     },
     {
         "id": "3",
-        "photo": "cccccc",
-        "title": "1sssssss",
-        "description": "sssssss1",
+        "photo": "assets/DSC08967-png.webp",
+        "title": "DJ Tamenpi e a Só Disco Salva",
+        "description": "Quando as bolachas esquentam demais pro DJ",
     },
 ]
