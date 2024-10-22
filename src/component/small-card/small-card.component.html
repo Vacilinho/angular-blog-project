@@ -1,7 +1,12 @@
 <div class="flex flex-row gap-4 py-4">
-  <img class="flex w-80 max-h-32 rounded-md object-cover" src="{{ cardPhoto }}" />
+  <img
+    class="flex w-80 max-h-32 rounded-md object-cover"
+    src="{{ cardPhoto }}"
+  />
   <div class="flex flex-col justify-center gap-2">
-    <h2 class="text-white text-lg font-bold">{{ cardTitle }}</h2>
-    <span class="text-slate-600"> {{ cardDescription }} </span>
+    <a [routerLink]="['content', id]">
+      <h2 class="text-white text-lg font-bold">{{ cardTitle }}</h2>
+      <span class="text-slate-600"> {{ cardDescription }} </span>
+    </a>
   </div>
 </div>

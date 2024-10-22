@@ -33,30 +33,29 @@
       <div
         class="col-span-4 row-span-3 border border-gray-950 bg-gradient-to-br from-gray-900 rounded-3xl flex justify-center items-center"
       >
-        <a href="this."
-          ><app-big-card
-            [photoCover]="
-              'https://vejasp.abril.com.br/wp-content/uploads/2016/12/grandmaster-flash.png'
-            "
-            [cardTitle]="'Grandmaster Flash e sua aula de contagem'"
-            [cardDescription]="'Breve descrição do títúlo aqui'"
-          ></app-big-card
-        ></a>
+        ><app-big-card
+          [photoCover]="
+            'https://vejasp.abril.com.br/wp-content/uploads/2016/12/grandmaster-flash.png'
+          "
+          [cardTitle]="'Grandmaster Flash e sua aula de contagem'"
+          [cardDescription]="'Breve descrição do títúlo aqui'"
+          [id] = "'1'"
+        ></app-big-card>
       </div>
       <div
         class="col-span-6 row-span-1 border border-gray-950 bg-gradient-to-br from-gray-900 rounded-3xl flex justify-center items-center"
       >
-        <app-small-card></app-small-card>
+        <app-small-card [cardTitle]="'Oie'" [id]="'2'"></app-small-card>
       </div>
       <div
         class="col-span-6 row-span-1 border border-gray-950 bg-gradient-to-br from-gray-900 rounded-3xl flex justify-center items-center"
       >
-        <app-small-card></app-small-card>
+        <app-small-card [cardTitle]="'tudo'" [id]="'3'"></app-small-card>
       </div>
       <div
         class="col-span-6 row-span-1 border border-gray-950 bg-gradient-to-br from-gray-900 rounded-3xl flex justify-center items-center"
       >
-        <app-small-card></app-small-card>
+        <app-small-card [cardTitle]="'bem?'" [id]="'4'"></app-small-card>
       </div>
       <div
         class="col-span-3 row-span-2 border border-gray-950 bg-gradient-to-br from-gray-900 rounded-3xl flex justify-center items-center"

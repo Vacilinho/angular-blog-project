@@ -1,15 +1,13 @@
 <div class="p-4">
   <div class="">
-    <img
-      src="{{ photoCover }}"
-      alt=""
-      class="w-full rounded-md"
-    />
+    <img src="{{ photoCover }}" alt="" class="w-full rounded-md" />
   </div>
-  <div class="py-4">
-    <h2 class="text-white text-4xl font-bold">{{ cardTitle }}</h2>
-  </div>
-  <div class="text-slate-600">
-    {{ cardDescription }}
-  </div>
+  <a [routerLink]="['content', id]">
+    <div class="py-4">
+      <h2 class="text-white text-4xl font-bold">{{ cardTitle }}</h2>
+    </div>
+    <div class="text-slate-600">
+      {{ cardDescription }}
+    </div>
+  </a>
 </div>
